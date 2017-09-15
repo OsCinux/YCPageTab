@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0428D91F67839E00843689 /* YCWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0428D81F67839E00843689 /* YCWebViewController.swift */; };
 		DB5CD18E1F666EC1006C5A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5CD18D1F666EC1006C5A72 /* AppDelegate.swift */; };
 		DB5CD1901F666EC1006C5A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5CD18F1F666EC1006C5A72 /* ViewController.swift */; };
 		DB5CD1931F666EC1006C5A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5CD1911F666EC1006C5A72 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB0428D81F67839E00843689 /* YCWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCWebViewController.swift; sourceTree = "<group>"; };
 		DB5CD18A1F666EC1006C5A72 /* YCPageTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCPageTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5CD18D1F666EC1006C5A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB5CD18F1F666EC1006C5A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				DB5CD18D1F666EC1006C5A72 /* AppDelegate.swift */,
 				DB5CD18F1F666EC1006C5A72 /* ViewController.swift */,
+				DB0428D81F67839E00843689 /* YCWebViewController.swift */,
 				DB5CD1911F666EC1006C5A72 /* Main.storyboard */,
 				DB5CD1941F666EC1006C5A72 /* Assets.xcassets */,
 				DB5CD1961F666EC1006C5A72 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0428D91F67839E00843689 /* YCWebViewController.swift in Sources */,
 				DB5CD1901F666EC1006C5A72 /* ViewController.swift in Sources */,
 				DB5CD18E1F666EC1006C5A72 /* AppDelegate.swift in Sources */,
 			);
@@ -360,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -425,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SFPZ2CUJ62;
 				INFOPLIST_FILE = YCPageTab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.yeechain.www.YCPageTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SFPZ2CUJ62;
 				INFOPLIST_FILE = YCPageTab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.yeechain.www.YCPageTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
